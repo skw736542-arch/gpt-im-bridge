@@ -1,0 +1,2549 @@
+{
+  "source": "package-lock.json and installed package license files; external services and weights are separate",
+  "packages": [
+    {
+      "name": "@anthropic-ai/sdk",
+      "version": "0.129.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "github:anthropics/anthropic-sdk-typescript",
+      "notices": [
+        "npm/@anthropic-ai_sdk-0.129.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/client-bedrock-runtime",
+      "version": "3.1127.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_client-bedrock-runtime-3.1127.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/core",
+      "version": "3.978.5",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_core-3.978.5-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-env",
+      "version": "3.972.76",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_credential-provider-env-3.972.76-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-http",
+      "version": "3.972.78",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": []
+    },
+    {
+      "name": "@aws-sdk/credential-provider-ini",
+      "version": "3.973.21",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_credential-provider-ini-3.973.21-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-login",
+      "version": "3.972.83",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": []
+    },
+    {
+      "name": "@aws-sdk/credential-provider-node",
+      "version": "3.972.88",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_credential-provider-node-3.972.88-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-process",
+      "version": "3.972.76",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_credential-provider-process-3.972.76-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-sso",
+      "version": "3.973.20",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_credential-provider-sso-3.973.20-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/token-providers",
+      "version": "3.1155.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_token-providers-3.1155.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-web-identity",
+      "version": "3.972.82",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_credential-provider-web-identity-3.972.82-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/eventstream-handler-node",
+      "version": "3.972.38",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_eventstream-handler-node-3.972.38-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/middleware-eventstream",
+      "version": "3.972.33",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_middleware-eventstream-3.972.33-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/middleware-websocket",
+      "version": "3.972.58",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_middleware-websocket-3.972.58-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/nested-clients",
+      "version": "3.997.50",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": []
+    },
+    {
+      "name": "@aws-sdk/signature-v4-multi-region",
+      "version": "3.996.49",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_signature-v4-multi-region-3.996.49-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/token-providers",
+      "version": "3.1127.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_token-providers-3.1127.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/types",
+      "version": "3.975.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_types-3.975.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws-sdk/xml-builder",
+      "version": "3.972.41",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/aws/aws-sdk-js-v3.git",
+      "notices": [
+        "npm/@aws-sdk_xml-builder-3.972.41-LICENSE"
+      ]
+    },
+    {
+      "name": "@aws/lambda-invoke-store",
+      "version": "0.3.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/awslabs/aws-lambda-invoke-store.git",
+      "notices": [
+        "npm/@aws_lambda-invoke-store-0.3.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/runtime",
+      "version": "7.29.10",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/babel/babel.git",
+      "notices": [
+        "npm/@babel_runtime-7.29.10-LICENSE"
+      ]
+    },
+    {
+      "name": "@earendil-works/pi-ai",
+      "version": "1.4.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/earendil-works/pi.git",
+      "notices": []
+    },
+    {
+      "name": "@earendil-works/pi-telemetry",
+      "version": "1.4.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/earendil-works/pi.git",
+      "notices": []
+    },
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": true,
+      "repository": "git+https://github.com/evanw/esbuild.git",
+      "notices": []
+    },
+    {
+      "name": "@fastify/accept-negotiator",
+      "version": "2.1.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/accept-negotiator.git",
+      "notices": [
+        "npm/@fastify_accept-negotiator-2.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/ajv-compiler",
+      "version": "4.0.7",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/ajv-compiler.git",
+      "notices": [
+        "npm/@fastify_ajv-compiler-4.0.7-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/cookie",
+      "version": "11.1.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fastify-cookie.git",
+      "notices": [
+        "npm/@fastify_cookie-11.1.3-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/deepmerge",
+      "version": "3.2.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/deepmerge.git",
+      "notices": [
+        "npm/@fastify_deepmerge-3.2.4-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/error",
+      "version": "4.2.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fastify-error.git",
+      "notices": [
+        "npm/@fastify_error-4.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/fast-json-stringify-compiler",
+      "version": "5.1.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fast-json-stringify-compiler.git",
+      "notices": [
+        "npm/@fastify_fast-json-stringify-compiler-5.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/forwarded",
+      "version": "3.1.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/forwarded.git",
+      "notices": [
+        "npm/@fastify_forwarded-3.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/helmet",
+      "version": "13.2.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fastify-helmet.git",
+      "notices": [
+        "npm/@fastify_helmet-13.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/merge-json-schemas",
+      "version": "0.2.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/merge-json-schemas.git",
+      "notices": [
+        "npm/@fastify_merge-json-schemas-0.2.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/proxy-addr",
+      "version": "5.1.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/proxy-addr.git",
+      "notices": [
+        "npm/@fastify_proxy-addr-5.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/rate-limit",
+      "version": "11.2.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fastify-rate-limit.git",
+      "notices": [
+        "npm/@fastify_rate-limit-11.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/send",
+      "version": "4.2.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/send.git",
+      "notices": [
+        "npm/@fastify_send-4.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/static",
+      "version": "10.1.7",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fastify-static.git",
+      "notices": [
+        "npm/@fastify_static-10.1.7-LICENSE"
+      ]
+    },
+    {
+      "name": "@fontsource-variable/geist",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "development": true,
+      "installed": true,
+      "repository": "git+https://github.com/fontsource/font-files.git",
+      "notices": [
+        "npm/@fontsource-variable_geist-5.3.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@google/genai",
+      "version": "2.21.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/googleapis/js-genai.git",
+      "notices": [
+        "npm/@google_genai-2.21.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@lukeed/ms",
+      "version": "2.0.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "lukeed/ms",
+      "notices": [
+        "npm/@lukeed_ms-2.0.2-license"
+      ]
+    },
+    {
+      "name": "@pinojs/redact",
+      "version": "0.4.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/pinojs/redact.git",
+      "notices": [
+        "npm/@pinojs_redact-0.4.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/aspromise",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_aspromise-1.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/base64",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_base64-1.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/codegen",
+      "version": "2.0.5",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_codegen-2.0.5-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/eventemitter",
+      "version": "1.1.1",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_eventemitter-1.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/fetch",
+      "version": "1.1.1",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_fetch-1.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/float",
+      "version": "1.0.2",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_float-1.0.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/path",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_path-1.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/pool",
+      "version": "1.1.0",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_pool-1.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/utf8",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/protobufjs/protobuf.js.git",
+      "notices": [
+        "npm/@protobufjs_utf8-1.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@smithy/core",
+      "version": "3.36.2",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/smithy-lang/smithy-typescript.git",
+      "notices": [
+        "npm/@smithy_core-3.36.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@smithy/credential-provider-imds",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/smithy-lang/smithy-typescript.git",
+      "notices": [
+        "npm/@smithy_credential-provider-imds-4.5.2-LICENSE"
+      ]
+    },
+    {
+      "name": "@smithy/fetch-http-handler",
+      "version": "5.8.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/smithy-lang/smithy-typescript.git",
+      "notices": [
+        "npm/@smithy_fetch-http-handler-5.8.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@smithy/node-http-handler",
+      "version": "4.12.1",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/smithy-lang/smithy-typescript.git",
+      "notices": [
+        "npm/@smithy_node-http-handler-4.12.1-LICENSE"
+      ]
+    },
+    {
+      "name": "@smithy/signature-v4",
+      "version": "5.7.4",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/smithy-lang/smithy-typescript.git",
+      "notices": [
+        "npm/@smithy_signature-v4-5.7.4-LICENSE"
+      ]
+    },
+    {
+      "name": "@smithy/types",
+      "version": "4.19.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/smithy-lang/smithy-typescript.git",
+      "notices": [
+        "npm/@smithy_types-4.19.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@stablelib/base64",
+      "version": "1.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/StableLib/stablelib",
+      "notices": [
+        "npm/@stablelib_base64-1.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "@tencent-connect/qqbot-nodejs",
+      "version": "1.0.5",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/tencent-connect/qqbot-nodejs.git",
+      "notices": [
+        "npm/@tencent-connect_qqbot-nodejs-1.0.5-LICENSE"
+      ]
+    },
+    {
+      "name": "@types/node",
+      "version": "26.6.5",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "notices": [
+        "npm/@types_node-26.6.5-LICENSE"
+      ]
+    },
+    {
+      "name": "@types/qrcode",
+      "version": "1.5.6",
+      "license": "MIT",
+      "development": true,
+      "installed": true,
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "notices": [
+        "npm/@types_qrcode-1.5.6-LICENSE"
+      ]
+    },
+    {
+      "name": "@types/retry",
+      "version": "0.12.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "notices": [
+        "npm/@types_retry-0.12.0-LICENSE"
+      ]
+    },
+    {
+      "name": "@typescript/typescript-aix-ppc64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-darwin-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-darwin-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-freebsd-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-freebsd-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-arm",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-loong64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-mips64el",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-ppc64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-riscv64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-s390x",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-netbsd-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-netbsd-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-openbsd-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-openbsd-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-sunos-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-win32-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "@typescript/typescript-win32-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": true,
+      "repository": "https://github.com/microsoft/TypeScript.git",
+      "notices": [
+        "npm/@typescript_typescript-win32-x64-7.0.2-LICENSE",
+        "npm/@typescript_typescript-win32-x64-7.0.2-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "abstract-logging",
+      "version": "2.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/jsumners/abstract-logging.git",
+      "notices": []
+    },
+    {
+      "name": "agent-base",
+      "version": "9.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "notices": [
+        "npm/agent-base-9.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "ajv",
+      "version": "8.20.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "ajv-validator/ajv",
+      "notices": [
+        "npm/ajv-8.20.0-LICENSE"
+      ]
+    },
+    {
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/ajv-validator/ajv-formats.git",
+      "notices": [
+        "npm/ajv-formats-3.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-uri",
+      "version": "3.1.9",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fast-uri.git",
+      "notices": [
+        "npm/fast-uri-3.1.9-LICENSE"
+      ]
+    },
+    {
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "chalk/ansi-regex",
+      "notices": [
+        "npm/ansi-regex-5.0.1-license"
+      ]
+    },
+    {
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "chalk/ansi-styles",
+      "notices": [
+        "npm/ansi-styles-4.3.0-license"
+      ]
+    },
+    {
+      "name": "atomic-sleep",
+      "version": "1.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/davidmarkclements/atomic-sleep.git",
+      "notices": [
+        "npm/atomic-sleep-1.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "avvio",
+      "version": "9.3.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/avvio.git",
+      "notices": [
+        "npm/avvio-9.3.1-LICENSE"
+      ]
+    },
+    {
+      "name": "balanced-match",
+      "version": "4.0.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/juliangruber/balanced-match.git",
+      "notices": [
+        "npm/balanced-match-4.0.4-LICENSE.md"
+      ]
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/beatgammit/base64-js.git",
+      "notices": [
+        "npm/base64-js-1.5.1-LICENSE"
+      ]
+    },
+    {
+      "name": "bignumber.js",
+      "version": "9.3.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/MikeMcl/bignumber.js.git",
+      "notices": [
+        "npm/bignumber.js-9.3.1-LICENCE.md"
+      ]
+    },
+    {
+      "name": "bowser",
+      "version": "2.14.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/bowser-js/bowser.git",
+      "notices": [
+        "npm/bowser-2.14.1-LICENSE"
+      ]
+    },
+    {
+      "name": "brace-expansion",
+      "version": "5.0.12",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/juliangruber/brace-expansion.git",
+      "notices": [
+        "npm/brace-expansion-5.0.12-LICENSE"
+      ]
+    },
+    {
+      "name": "buffer-equal-constant-time",
+      "version": "1.0.1",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "git@github.com:goinstant/buffer-equal-constant-time.git",
+      "notices": [
+        "npm/buffer-equal-constant-time-1.0.1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "camelcase",
+      "version": "5.3.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/camelcase",
+      "notices": [
+        "npm/camelcase-5.3.1-license"
+      ]
+    },
+    {
+      "name": "cliui",
+      "version": "6.0.0",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "http://github.com/yargs/cliui.git",
+      "notices": [
+        "npm/cliui-6.0.0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "Qix-/color-convert",
+      "notices": [
+        "npm/color-convert-2.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "color-name",
+      "version": "1.1.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git@github.com:colorjs/color-name.git",
+      "notices": [
+        "npm/color-name-1.1.4-LICENSE"
+      ]
+    },
+    {
+      "name": "content-disposition",
+      "version": "3.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "jshttp/content-disposition",
+      "notices": [
+        "npm/content-disposition-3.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "cookie",
+      "version": "2.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "jshttp/cookie",
+      "notices": [
+        "npm/cookie-2.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "data-uri-to-buffer",
+      "version": "4.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/TooTallNate/node-data-uri-to-buffer.git",
+      "notices": []
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/debug-js/debug.git",
+      "notices": [
+        "npm/debug-4.4.3-LICENSE"
+      ]
+    },
+    {
+      "name": "decamelize",
+      "version": "1.2.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/decamelize",
+      "notices": [
+        "npm/decamelize-1.2.0-license"
+      ]
+    },
+    {
+      "name": "depd",
+      "version": "2.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "dougwilson/nodejs-depd",
+      "notices": [
+        "npm/depd-2.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "dequal",
+      "version": "2.0.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "lukeed/dequal",
+      "notices": [
+        "npm/dequal-2.0.3-license"
+      ]
+    },
+    {
+      "name": "dijkstrajs",
+      "version": "1.0.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/tcort/dijkstrajs",
+      "notices": [
+        "npm/dijkstrajs-1.0.3-LICENSE.md"
+      ]
+    },
+    {
+      "name": "ecdsa-sig-formatter",
+      "version": "1.0.11",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "git+ssh://git@github.com/Brightspace/node-ecdsa-sig-formatter.git",
+      "notices": [
+        "npm/ecdsa-sig-formatter-1.0.11-LICENSE"
+      ]
+    },
+    {
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/mathiasbynens/emoji-regex.git",
+      "notices": [
+        "npm/emoji-regex-8.0.0-LICENSE-MIT.txt"
+      ]
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.2",
+      "license": "MIT",
+      "development": true,
+      "installed": true,
+      "repository": "git+https://github.com/evanw/esbuild.git",
+      "notices": [
+        "npm/esbuild-0.28.2-LICENSE.md"
+      ]
+    },
+    {
+      "name": "escape-html",
+      "version": "1.0.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "component/escape-html",
+      "notices": [
+        "npm/escape-html-1.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "extend",
+      "version": "3.0.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/justmoon/node-extend.git",
+      "notices": [
+        "npm/extend-3.0.2-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-decode-uri-component",
+      "version": "1.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/delvedor/fast-decode-uri-component.git",
+      "notices": [
+        "npm/fast-decode-uri-component-1.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/epoberezkin/fast-deep-equal.git",
+      "notices": [
+        "npm/fast-deep-equal-3.1.3-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-json-stringify",
+      "version": "7.1.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fast-json-stringify.git",
+      "notices": [
+        "npm/fast-json-stringify-7.1.3-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-querystring",
+      "version": "1.1.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/anonrig/fast-querystring.git",
+      "notices": [
+        "npm/fast-querystring-1.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-sha256",
+      "version": "1.3.0",
+      "license": "Unlicense",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dchest/fast-sha256-js",
+      "notices": [
+        "npm/fast-sha256-1.3.0-LICENSE"
+      ]
+    },
+    {
+      "name": "fast-uri",
+      "version": "4.2.3",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fast-uri.git",
+      "notices": [
+        "npm/fast-uri-4.2.3-LICENSE"
+      ]
+    },
+    {
+      "name": "fastify",
+      "version": "5.12.7",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fastify.git",
+      "notices": [
+        "npm/fastify-5.12.7-LICENSE"
+      ]
+    },
+    {
+      "name": "fastify-plugin",
+      "version": "6.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/fastify-plugin.git",
+      "notices": [
+        "npm/fastify-plugin-6.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "fastq",
+      "version": "1.20.3",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/mcollina/fastq.git",
+      "notices": [
+        "npm/fastq-1.20.3-LICENSE"
+      ]
+    },
+    {
+      "name": "fetch-blob",
+      "version": "3.2.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/node-fetch/fetch-blob.git",
+      "notices": [
+        "npm/fetch-blob-3.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "find-my-way",
+      "version": "9.10.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/delvedor/find-my-way.git",
+      "notices": [
+        "npm/find-my-way-9.10.0-LICENSE"
+      ]
+    },
+    {
+      "name": "find-up",
+      "version": "4.1.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/find-up",
+      "notices": [
+        "npm/find-up-4.1.0-license"
+      ]
+    },
+    {
+      "name": "formdata-polyfill",
+      "version": "4.0.10",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://jimmywarting@github.com/jimmywarting/FormData.git",
+      "notices": [
+        "npm/formdata-polyfill-4.0.10-LICENSE"
+      ]
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "license": "MIT",
+      "development": true,
+      "installed": false,
+      "notices": []
+    },
+    {
+      "name": "gaxios",
+      "version": "7.3.1",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "notices": [
+        "npm/gaxios-7.3.1-LICENSE"
+      ]
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "notices": [
+        "npm/agent-base-7.1.4-LICENSE"
+      ]
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "notices": [
+        "npm/https-proxy-agent-7.0.6-LICENSE"
+      ]
+    },
+    {
+      "name": "gcp-metadata",
+      "version": "8.1.2",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git",
+      "notices": [
+        "npm/gcp-metadata-8.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "get-caller-file",
+      "version": "2.0.5",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/stefanpenner/get-caller-file.git",
+      "notices": [
+        "npm/get-caller-file-2.0.5-LICENSE.md"
+      ]
+    },
+    {
+      "name": "glob",
+      "version": "13.0.6",
+      "license": "BlueOak-1.0.0",
+      "development": false,
+      "installed": true,
+      "repository": "git@github.com:isaacs/node-glob.git",
+      "notices": [
+        "npm/glob-13.0.6-LICENSE.md"
+      ]
+    },
+    {
+      "name": "google-auth-library",
+      "version": "10.9.1",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "notices": [
+        "npm/google-auth-library-10.9.1-LICENSE"
+      ]
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "1.1.3",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git",
+      "notices": [
+        "npm/google-logging-utils-1.1.3-LICENSE"
+      ]
+    },
+    {
+      "name": "helmet",
+      "version": "8.3.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/helmetjs/helmet.git",
+      "notices": [
+        "npm/helmet-8.3.0-LICENSE"
+      ]
+    },
+    {
+      "name": "http-errors",
+      "version": "2.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "jshttp/http-errors",
+      "notices": [
+        "npm/http-errors-2.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "http-proxy-agent",
+      "version": "9.1.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "notices": [
+        "npm/http-proxy-agent-9.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "9.1.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "notices": [
+        "npm/https-proxy-agent-9.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "inherits",
+      "version": "2.0.4",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/isaacs/inherits",
+      "notices": [
+        "npm/inherits-2.0.4-LICENSE"
+      ]
+    },
+    {
+      "name": "ip-address",
+      "version": "10.7.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/beaugunderson/ip-address.git",
+      "notices": [
+        "npm/ip-address-10.7.4-LICENSE"
+      ]
+    },
+    {
+      "name": "ipaddr.js",
+      "version": "2.5.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/whitequark/ipaddr.js.git",
+      "notices": [
+        "npm/ipaddr.js-2.5.0-LICENSE"
+      ]
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/is-fullwidth-code-point",
+      "notices": [
+        "npm/is-fullwidth-code-point-3.0.0-license"
+      ]
+    },
+    {
+      "name": "json-bigint",
+      "version": "1.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git@github.com:sidorares/json-bigint.git",
+      "notices": [
+        "npm/json-bigint-1.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "json-schema-ref-resolver",
+      "version": "3.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/json-schema-ref-resolver.git",
+      "notices": [
+        "npm/json-schema-ref-resolver-3.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "json-schema-to-ts",
+      "version": "3.1.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/ThomasAribart/json-schema-to-ts.git",
+      "notices": [
+        "npm/json-schema-to-ts-3.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/epoberezkin/json-schema-traverse.git",
+      "notices": [
+        "npm/json-schema-traverse-1.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "jwa",
+      "version": "2.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/brianloveswords/node-jwa.git",
+      "notices": [
+        "npm/jwa-2.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "jws",
+      "version": "4.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/brianloveswords/node-jws.git",
+      "notices": [
+        "npm/jws-4.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "light-my-request",
+      "version": "6.8.0",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/light-my-request.git",
+      "notices": [
+        "npm/light-my-request-6.8.0-LICENSE"
+      ]
+    },
+    {
+      "name": "locate-path",
+      "version": "5.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/locate-path",
+      "notices": [
+        "npm/locate-path-5.0.0-license"
+      ]
+    },
+    {
+      "name": "long",
+      "version": "5.3.2",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/dcodeIO/long.js.git",
+      "notices": [
+        "npm/long-5.3.2-LICENSE"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "license": "BlueOak-1.0.0",
+      "development": false,
+      "installed": true,
+      "repository": "git+ssh://git@github.com/isaacs/node-lru-cache.git",
+      "notices": [
+        "npm/lru-cache-11.5.3-LICENSE.md"
+      ]
+    },
+    {
+      "name": "mime",
+      "version": "3.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/broofa/mime",
+      "notices": [
+        "npm/mime-3.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "10.2.6",
+      "license": "BlueOak-1.0.0",
+      "development": false,
+      "installed": true,
+      "repository": "git@github.com:isaacs/minimatch",
+      "notices": [
+        "npm/minimatch-10.2.6-LICENSE.md"
+      ]
+    },
+    {
+      "name": "minipass",
+      "version": "7.1.3",
+      "license": "BlueOak-1.0.0",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/isaacs/minipass",
+      "notices": [
+        "npm/minipass-7.1.3-LICENSE.md"
+      ]
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "vercel/ms",
+      "notices": [
+        "npm/ms-2.1.3-license.md"
+      ]
+    },
+    {
+      "name": "node-domexception",
+      "version": "1.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/jimmywarting/node-domexception.git",
+      "notices": [
+        "npm/node-domexception-1.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "node-fetch",
+      "version": "3.3.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/node-fetch/node-fetch.git",
+      "notices": [
+        "npm/node-fetch-3.3.2-LICENSE.md"
+      ]
+    },
+    {
+      "name": "on-exit-leak-free",
+      "version": "2.1.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/mcollina/on-exit-or-gc.git",
+      "notices": [
+        "npm/on-exit-leak-free-2.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "openai",
+      "version": "7.19.0",
+      "license": "Apache-2.0",
+      "development": false,
+      "installed": true,
+      "repository": "github:openai/openai-node",
+      "notices": [
+        "npm/openai-7.19.0-LICENSE"
+      ]
+    },
+    {
+      "name": "p-limit",
+      "version": "2.3.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/p-limit",
+      "notices": [
+        "npm/p-limit-2.3.0-license"
+      ]
+    },
+    {
+      "name": "p-locate",
+      "version": "4.1.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/p-locate",
+      "notices": [
+        "npm/p-locate-4.1.0-license"
+      ]
+    },
+    {
+      "name": "p-retry",
+      "version": "4.6.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/p-retry",
+      "notices": [
+        "npm/p-retry-4.6.2-license"
+      ]
+    },
+    {
+      "name": "p-try",
+      "version": "2.2.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/p-try",
+      "notices": [
+        "npm/p-try-2.2.0-license"
+      ]
+    },
+    {
+      "name": "partial-json",
+      "version": "0.1.7",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/promplate/partial-json-parser-js",
+      "notices": [
+        "npm/partial-json-0.1.7-LICENSE"
+      ]
+    },
+    {
+      "name": "path-exists",
+      "version": "4.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/path-exists",
+      "notices": [
+        "npm/path-exists-4.0.0-license"
+      ]
+    },
+    {
+      "name": "path-scurry",
+      "version": "2.0.2",
+      "license": "BlueOak-1.0.0",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/isaacs/path-scurry",
+      "notices": [
+        "npm/path-scurry-2.0.2-LICENSE.md"
+      ]
+    },
+    {
+      "name": "pino",
+      "version": "10.4.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/pinojs/pino.git",
+      "notices": [
+        "npm/pino-10.4.0-LICENSE"
+      ]
+    },
+    {
+      "name": "pino-abstract-transport",
+      "version": "3.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/pinojs/pino-abstract-transport.git",
+      "notices": [
+        "npm/pino-abstract-transport-3.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "pino-std-serializers",
+      "version": "7.1.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+ssh://git@github.com/pinojs/pino-std-serializers.git",
+      "notices": [
+        "npm/pino-std-serializers-7.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "playwright",
+      "version": "1.64.1",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": true,
+      "repository": "git+https://github.com/microsoft/playwright.git",
+      "notices": [
+        "npm/playwright-1.64.1-LICENSE",
+        "npm/playwright-1.64.1-NOTICE"
+      ]
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.64.1",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": true,
+      "repository": "git+https://github.com/microsoft/playwright.git",
+      "notices": [
+        "npm/playwright-core-1.64.1-LICENSE",
+        "npm/playwright-core-1.64.1-NOTICE"
+      ]
+    },
+    {
+      "name": "pngjs",
+      "version": "5.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/lukeapage/pngjs.git",
+      "notices": [
+        "npm/pngjs-5.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "process-warning",
+      "version": "5.1.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/process-warning.git",
+      "notices": [
+        "npm/process-warning-5.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "protobufjs",
+      "version": "7.6.6",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "protobufjs/protobuf.js",
+      "notices": [
+        "npm/protobufjs-7.6.6-LICENSE"
+      ]
+    },
+    {
+      "name": "proxy-agent-negotiate",
+      "version": "1.1.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "notices": []
+    },
+    {
+      "name": "qrcode",
+      "version": "1.5.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/soldair/node-qrcode.git",
+      "notices": [
+        "npm/qrcode-1.5.4-license"
+      ]
+    },
+    {
+      "name": "quick-format-unescaped",
+      "version": "4.0.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/davidmarkclements/quick-format.git",
+      "notices": [
+        "npm/quick-format-unescaped-4.0.4-LICENSE"
+      ]
+    },
+    {
+      "name": "real-require",
+      "version": "1.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/pinojs/real-require.git",
+      "notices": [
+        "npm/real-require-1.0.0-LICENSE.md"
+      ]
+    },
+    {
+      "name": "require-directory",
+      "version": "2.1.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/troygoode/node-require-directory.git",
+      "notices": [
+        "npm/require-directory-2.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "floatdrop/require-from-string",
+      "notices": [
+        "npm/require-from-string-2.0.2-license"
+      ]
+    },
+    {
+      "name": "require-main-filename",
+      "version": "2.0.0",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git+ssh://git@github.com/yargs/require-main-filename.git",
+      "notices": [
+        "npm/require-main-filename-2.0.0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ret",
+      "version": "0.5.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/fent/ret.js.git",
+      "notices": [
+        "npm/ret-0.5.1-LICENSE"
+      ]
+    },
+    {
+      "name": "retry",
+      "version": "0.13.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/tim-kos/node-retry.git",
+      "notices": [
+        "npm/retry-0.13.1-License"
+      ]
+    },
+    {
+      "name": "reusify",
+      "version": "1.1.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/mcollina/reusify.git",
+      "notices": [
+        "npm/reusify-1.1.0-LICENSE"
+      ]
+    },
+    {
+      "name": "rfdc",
+      "version": "1.4.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/davidmarkclements/rfdc.git",
+      "notices": [
+        "npm/rfdc-1.4.1-LICENSE"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git://github.com/feross/safe-buffer.git",
+      "notices": [
+        "npm/safe-buffer-5.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "safe-regex2",
+      "version": "5.1.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/safe-regex2.git",
+      "notices": [
+        "npm/safe-regex2-5.1.2-LICENSE"
+      ]
+    },
+    {
+      "name": "safe-stable-stringify",
+      "version": "2.5.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/BridgeAR/safe-stable-stringify.git",
+      "notices": [
+        "npm/safe-stable-stringify-2.5.0-LICENSE"
+      ]
+    },
+    {
+      "name": "secure-json-parse",
+      "version": "4.1.1",
+      "license": "BSD-3-Clause",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/fastify/secure-json-parse.git",
+      "notices": [
+        "npm/secure-json-parse-4.1.1-LICENSE"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/npm/node-semver.git",
+      "notices": [
+        "npm/semver-7.8.5-LICENSE"
+      ]
+    },
+    {
+      "name": "set-blocking",
+      "version": "2.0.0",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/yargs/set-blocking.git",
+      "notices": [
+        "npm/set-blocking-2.0.0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "set-cookie-parser",
+      "version": "3.2.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "nfriedly/set-cookie-parser",
+      "notices": [
+        "npm/set-cookie-parser-3.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "setprototypeof",
+      "version": "1.2.0",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/wesleytodd/setprototypeof.git",
+      "notices": [
+        "npm/setprototypeof-1.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "silk-wasm",
+      "version": "3.7.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/idranme/silk-wasm.git",
+      "notices": [
+        "npm/silk-wasm-3.7.1-LICENSE"
+      ]
+    },
+    {
+      "name": "sonic-boom",
+      "version": "4.2.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/pinojs/sonic-boom.git",
+      "notices": [
+        "npm/sonic-boom-4.2.1-LICENSE"
+      ]
+    },
+    {
+      "name": "split2",
+      "version": "4.2.0",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/mcollina/split2.git",
+      "notices": [
+        "npm/split2-4.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "standardwebhooks",
+      "version": "1.1.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/standard-webhooks/standard-webhooks",
+      "notices": []
+    },
+    {
+      "name": "statuses",
+      "version": "2.0.2",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "jshttp/statuses",
+      "notices": [
+        "npm/statuses-2.0.2-LICENSE"
+      ]
+    },
+    {
+      "name": "string-width",
+      "version": "4.2.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "sindresorhus/string-width",
+      "notices": [
+        "npm/string-width-4.2.3-license"
+      ]
+    },
+    {
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "chalk/strip-ansi",
+      "notices": [
+        "npm/strip-ansi-6.0.1-license"
+      ]
+    },
+    {
+      "name": "thread-stream",
+      "version": "4.2.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/mcollina/thread-stream.git",
+      "notices": [
+        "npm/thread-stream-4.2.0-LICENSE"
+      ]
+    },
+    {
+      "name": "toad-cache",
+      "version": "3.7.4",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/kibertoad/toad-cache.git",
+      "notices": [
+        "npm/toad-cache-3.7.4-LICENSE"
+      ]
+    },
+    {
+      "name": "toidentifier",
+      "version": "1.0.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "component/toidentifier",
+      "notices": [
+        "npm/toidentifier-1.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "ts-algebra",
+      "version": "2.0.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/ThomasAribart/ts-algebra.git",
+      "notices": [
+        "npm/ts-algebra-2.0.0-LICENSE"
+      ]
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/Microsoft/tslib.git",
+      "notices": [
+        "npm/tslib-2.8.1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tsx",
+      "version": "4.23.15",
+      "license": "MIT",
+      "development": true,
+      "installed": true,
+      "repository": "privatenumber/tsx",
+      "notices": [
+        "npm/tsx-4.23.15-LICENSE"
+      ]
+    },
+    {
+      "name": "typebox",
+      "version": "1.3.27",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/sinclairzx81/typebox",
+      "notices": [
+        "npm/typebox-1.3.27-license"
+      ]
+    },
+    {
+      "name": "typescript",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "development": true,
+      "installed": true,
+      "repository": "https://github.com/microsoft/TypeScript.git",
+      "notices": [
+        "npm/typescript-7.0.2-LICENSE",
+        "npm/typescript-7.0.2-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "undici-types",
+      "version": "8.9.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/nodejs/undici.git",
+      "notices": [
+        "npm/undici-types-8.9.0-LICENSE"
+      ]
+    },
+    {
+      "name": "web-streams-polyfill",
+      "version": "3.3.3",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/MattiasBuelens/web-streams-polyfill.git",
+      "notices": [
+        "npm/web-streams-polyfill-3.3.3-LICENSE"
+      ]
+    },
+    {
+      "name": "which-module",
+      "version": "2.0.1",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/nexdrew/which-module.git",
+      "notices": [
+        "npm/which-module-2.0.1-LICENSE"
+      ]
+    },
+    {
+      "name": "wrap-ansi",
+      "version": "6.2.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "chalk/wrap-ansi",
+      "notices": [
+        "npm/wrap-ansi-6.2.0-license"
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "8.22.0",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/websockets/ws.git",
+      "notices": [
+        "npm/ws-8.22.0-LICENSE"
+      ]
+    },
+    {
+      "name": "y18n",
+      "version": "4.0.3",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "git@github.com:yargs/y18n.git",
+      "notices": [
+        "npm/y18n-4.0.3-LICENSE"
+      ]
+    },
+    {
+      "name": "yargs",
+      "version": "15.4.1",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/yargs/yargs.git",
+      "notices": [
+        "npm/yargs-15.4.1-LICENSE"
+      ]
+    },
+    {
+      "name": "yargs-parser",
+      "version": "18.1.3",
+      "license": "ISC",
+      "development": false,
+      "installed": true,
+      "repository": "https://github.com/yargs/yargs-parser.git",
+      "notices": [
+        "npm/yargs-parser-18.1.3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "zod",
+      "version": "4.6.7",
+      "license": "MIT",
+      "development": false,
+      "installed": true,
+      "repository": "git+https://github.com/colinhacks/zod.git",
+      "notices": [
+        "npm/zod-4.6.7-LICENSE"
+      ]
+    }
+  ]
+}

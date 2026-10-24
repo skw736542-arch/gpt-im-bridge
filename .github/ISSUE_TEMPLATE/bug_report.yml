@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible failure without sharing private data
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, tokens, callback URLs, account numbers, private conversations or database files. See SECURITY.md for security reports.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and version
+      description: OS, Node version, bridge version, channel and optional backend
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps, expected behavior and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized error code or log

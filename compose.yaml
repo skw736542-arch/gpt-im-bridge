@@ -1,0 +1,26 @@
+services:
+  bridge:
+    build: .
+    restart: unless-stopped
+    init: true
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8787
+      DATA_DIR: /app/data
+      # Inside the container only; the host publication remains loopback-only.
+      PI_OAUTH_CALLBACK_HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:8787:8787"
+      - "127.0.0.1:1455:1455"
+    volumes:
+      - bridge-data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  bridge-data:

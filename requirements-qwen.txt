@@ -1,0 +1,3 @@
+qwen-tts==0.1.1
+soundfile==0.13.1
+modelscope==1.40.2
