@@ -12,7 +12,8 @@ Date: 2026-10-24. Results are scoped, not a claim of universal compatibility.
 | Real file decoding | 10 checks: PNG, GIF, text, rejected executable, DOCX, XLSX, PDF, encrypted PDF rejection, MP4 frames/audio |
 | npm advisories | 0 known advisories in the current audit; does not cover Python, gateways or undisclosed issues |
 | Local Qwen installer | Syntax checked; fresh second-machine GPU installation not completed |
-| Docker | Callback mapping fixed; local image pull blocked by registry networking, hosted run pending |
+| Docker | Passed on a real GitHub-hosted Ubuntu runner: image build, non-root/read-only runtime, login, persistent config and mapped callback rejecting wrong state |
+| Hosted CI | Windows core, Ubuntu core, Chromium UI and container jobs all passed in the validation repository |
 | New QQ media on phone | User agreed to test; item-by-item results pending |
 
 ## Earlier local deployment evidence

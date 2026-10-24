@@ -1,5 +1,7 @@
 # GPT IM Bridge
 
+[![Core checks](https://github.com/skw736542-arch/gpt-im-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/skw736542-arch/gpt-im-bridge/actions/workflows/ci.yml) · [MIT](LICENSE)
+
 A self-hosted ChatGPT subscription bridge for WeChat and QQ, with explicit memory, native QQ voice and bounded multimodal processing. The web page manages models, authorization and channels; conversations stay in your messaging app.
 
 **0.9.0-alpha.1 · MIT · single-owner deployment.** Independent community software, not an OpenAI, Tencent or gateway vendor product. No unlimited quota, QQ social posting or real-time calls.
@@ -20,6 +22,8 @@ A self-hosted ChatGPT subscription bridge for WeChat and QQ, with explicit memor
 | 生图 | 单独登录的本机 Codex CLI；可选独立计费 OpenRouter，不保证与聊天同一账号或额度池 |
 
 手机端新增媒体测试见 [ACCEPTANCE.md](ACCEPTANCE.md)。微信原生语音输出仍停用。
+
+![模型配置管理页：临时测试数据，不含真实授权](docs/images/model-config.png)
 
 ## Windows 快速启动
 
