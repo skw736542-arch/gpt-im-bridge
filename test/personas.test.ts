@@ -13,7 +13,7 @@ test('topic continuity, explicit confirmation, expiry and mode isolation',()=>{
  const s=new Store(mkdtempSync(join(tmpdir(),'continuity-')),randomBytes(32));try{const p=readProfile(s,'a');
  assert(updateTopic(s,p,'我喜欢安静的咖啡馆'));assert.equal(p.memories.general.length,0);assert(personaPrompt(s,p).includes('咖啡馆'));
  personaCommand(s,p,'确认记忆');assert.equal(p.memories.general.length,1);assert.equal(p.pending,undefined);
- personaCommand(s,p,'/role coach');assert(!personaPrompt(s,p).includes('咖啡馆'));assert(personaPrompt(s,p).includes('石原'));
+ personaCommand(s,p,'/role coach');assert(!personaPrompt(s,p).includes('咖啡馆'));assert(personaPrompt(s,p).includes(s.config().personas.companionName));
  updateTopic(s,p,'我喜欢雨天');p.pending!.expires=0;personaCommand(s,p,'确认记忆');assert.equal(p.memories.coach.length,0);
  personaCommand(s,p,'/memory off');updateTopic(s,p,'我喜欢猫');assert.deepEqual(p.topics,{});
  }finally{s.close();}

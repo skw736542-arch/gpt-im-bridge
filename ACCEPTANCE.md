@@ -5,7 +5,7 @@ Date: 2026-10-24. Results are scoped, not a claim of universal compatibility.
 | Check | Result |
 | --- | --- |
 | Windows fresh npm installation | Passed in an isolated release directory |
-| Typecheck / 38 program tests / build | Passed on Windows and Ubuntu 24.04, Node 24.15 |
+| Typecheck / 39 program tests / build | Passed on Windows and Ubuntu 24.04, Node 24.15 |
 | Fresh runtime | Login, CSRF, model catalog, bundled assets and configuration after restart passed on both OS environments |
 | Browser | 1440 / 768 / 390 px passed; temporary test database, no real account |
 | Python media environment | Fresh venv installation and pip check passed |

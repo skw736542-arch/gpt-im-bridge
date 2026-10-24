@@ -6,10 +6,10 @@ Release: 0.9.0-alpha.1. Publish as an experimental pre-release with the limitati
 
 - MIT license, dependency inventory, retained upstream notices, attribution of reference projects and removal of user-supplied artwork.
 - No live .env, SQLite, models, virtual environments, account IDs or private application details in the source selection.
-- Fresh Windows dependency installation, typecheck, 38 program tests, build, fresh runtime/login/persistence checks.
+- Fresh Windows dependency installation, typecheck, 39 program tests, build, fresh runtime/login/persistence checks.
 - Browser checks at 1440/768/390 widths.
 - Fresh Python media environment, pip compatibility check and 10 real decoder checks.
-- Fresh Ubuntu 24.04 installation with Node 24.15: typecheck, 38 tests, build and first-run/restart persistence checks. Platform-specific package downloads required a cache-assisted retry.
+- Fresh Ubuntu 24.04 installation with Node 24.15: typecheck, 39 tests, build and first-run/restart persistence checks. Platform-specific package downloads required a cache-assisted retry.
 - Docker callback configuration repaired and hosted CI passed: non-root/read-only runtime, authenticated management, persistence after restart, mapped 1455 callback accessibility and incorrect-state rejection. Local Docker Hub connectivity was unavailable; the real container run used a GitHub-hosted Ubuntu runner.
 - Hosted Windows, Ubuntu, browser and container checks all passed in the private validation repository. Public repository checks are available under its Actions tab after publication.
 

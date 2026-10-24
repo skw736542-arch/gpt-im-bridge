@@ -2,7 +2,11 @@
 
 [![Core checks](https://github.com/skw736542-arch/gpt-im-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/skw736542-arch/gpt-im-bridge/actions/workflows/ci.yml) · [MIT](LICENSE)
 
-A self-hosted ChatGPT subscription bridge for WeChat and QQ, with explicit memory, native QQ voice and bounded multimodal processing. The web page manages models, authorization and channels; conversations stay in your messaging app.
+**在你自己的设备上，从零把自己的 ChatGPT 订阅接入自己的 QQ，创建可自定义身份、记忆、声音与交流节奏的 AI 恋爱陪伴。**
+
+A self-hosted QQ companion built around your own ChatGPT subscription, with optional WeChat support.
+
+先读 [从零创建你的 QQ 陪伴角色](START_HERE.md)。公版默认名字为“小伴”，名称和性格由部署者自行设置；不附带任何人的 QQ 账号、订阅授权或私人记忆。网页用于管理，聊天留在 QQ 中。
 
 **0.9.0-alpha.1 · MIT · single-owner deployment.** Independent community software, not an OpenAI, Tencent or gateway vendor product. No unlimited quota, QQ social posting or real-time calls.
 

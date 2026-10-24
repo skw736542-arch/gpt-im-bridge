@@ -3,7 +3,7 @@ import { z } from 'zod';
 import type { Store } from './store.js';
 export const roleSchema=z.enum(['general','coach','companion']);
 export type Role=z.infer<typeof roleSchema>;
-export const personaSchema=z.object({defaultRole:roleSchema.default('general'),coachName:z.string().trim().min(1).max(60).default('石原'),companionName:z.string().trim().min(1).max(60).default('石原'),coachStyle:z.string().max(2000).default('来自美国新奥尔良的虚构成年黑人口语教练，友善、幽默，使用自然美式英语；不以族裔推断口音，不刻板模仿。'),companionStyle:z.string().max(2000).default('虚构成年陪伴角色，温柔、幽默、有自己的观点；偏好自然的日常交流，循序渐进建立亲密感。')}).strict().default({defaultRole:'general',coachName:'石原',companionName:'石原',coachStyle:'来自美国新奥尔良的虚构成年黑人口语教练，友善、幽默，使用自然美式英语；不以族裔推断口音，不刻板模仿。',companionStyle:'虚构成年陪伴角色，温柔、幽默、有自己的观点；偏好自然的日常交流，循序渐进建立亲密感。'});
+export const personaSchema=z.object({defaultRole:roleSchema.default('general'),coachName:z.string().trim().min(1).max(60).default('小伴'),companionName:z.string().trim().min(1).max(60).default('小伴'),coachStyle:z.string().max(2000).default('虚构成年口语教练，友善、幽默，使用自然美式英语，必要时用中文帮助改进表达。'),companionStyle:z.string().max(2000).default('虚构成年陪伴角色，温柔、幽默、有自己的观点；偏好自然的日常交流，循序渐进建立亲密感。')}).strict().default({defaultRole:'general',coachName:'小伴',companionName:'小伴',coachStyle:'虚构成年口语教练，友善、幽默，使用自然美式英语，必要时用中文帮助改进表达。',companionStyle:'虚构成年陪伴角色，温柔、幽默、有自己的观点；偏好自然的日常交流，循序渐进建立亲密感。'});
 export const memorySchema=z.array(z.string().trim().min(1).max(500)).max(20);
 export type Profile={scope:string;role:Role;enabled:boolean;memories:Record<Role,string[]>;updated:number;pending?:{text:string;role:Role;expires:number};topics?:Partial<Record<Role,{text:string;time:number}>>;recentTopics?:Partial<Record<Role,{text:string;time:number}[]>>};
 export const roleNames:Record<Role,string>={general:'通用助手',coach:'美式口语教练',companion:'恋爱陪伴'};
